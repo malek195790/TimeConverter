@@ -1,33 +1,88 @@
-.App {
-  text-align: center;
+.App{
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-box{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 965px;
+  width: 590px;
+  background-image: url('https://png.pngtree.com/element_origin_min_pic/16/07/01/1457760b7f1cdf9.jpg');
+  background-size: 590px 965px;
+}
+
+.display{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display h1 {
+  font-size: 76px;
+  font-weight: 300;
+}
+
+.display p {
+  width: 268px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 15px;
+}
+
+.watch{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.button-display{
+  display: flex;
+}
+
+.start-button{
+  width: 120px;
+  height: 60px;
+  margin: 5px 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 20px;
+  color: darkgreen;
+  border: 1px solid darkgreen;
+}
+
+.start-button:hover {
+  width: 120px;
+  height: 60px;
+  margin: 5px 20px;
+  background-color: darkgreen;
+  border-radius: 5px;
+  font-size: 20px;
   color: white;
+  border: 1px solid white;
 }
 
-.App-link {
-  color: #61dafb;
+.reset-button{
+  width: 120px;
+  height: 60px;
+  margin: 5px 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 20px;
+  color: red;
+  border: 1px solid red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reset-button:hover {
+  width: 120px;
+  height: 60px;
+  margin: 5px 20px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
 }
